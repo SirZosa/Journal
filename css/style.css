@@ -1,0 +1,233 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 1.5em;
+    align-items: center;
+    font-size: 0.87rem;
+}
+
+nav p{
+    font-weight:500;
+}
+
+nav i{
+    align-self: center;
+}
+
+.nav-menu, .nav-title{
+    display: flex;
+    margin: 0;
+    width: 50%;
+}
+
+.nav-title{
+    justify-content: start;
+}
+
+.nav-menu{
+    justify-content: end;
+    gap: 1.5em;
+}
+
+.main-section{
+    background-image: url("/img/main.webp");
+    background-size:cover;
+    aspect-ratio: 20/18;
+    color: aliceblue;
+    padding: 1em;
+    text-align: start;
+    margin: 0;
+    line-height: 1.5rem;
+    font-size: 0.8rem;
+    text-shadow: black 1px 1px 2px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+.main-section  h1{
+    font-size: 2rem;
+    margin: 0.25em 0;
+}
+
+.recent{
+    width: 90%;
+    margin: 2em auto 3em auto;
+    line-height: 1.5em;
+    font-size: 0.8rem;
+}
+.recent h1{
+    margin: 0.5em 0;
+    font-size: 1.5rem;
+}
+
+.recent img{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+footer{
+    background-color: #202020;
+    color: aliceblue;
+    padding: 2em;
+    text-align: center;
+}
+footer h4, p{
+    margin: 0;
+}
+
+.about{
+    width: 90%;
+    margin: 2em auto 3em auto;
+}
+
+.about h1{
+    font-size: 2rem;
+    font-weight:900;
+}
+
+.about p{
+    line-height: 1.3em;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.divider{
+    text-align: center;
+}
+
+#yo{
+    border-radius: 50%;
+    width:50%;
+    border: #202020 2px solid;
+}
+
+@media (min-width:600px) {
+    .main-section  h1{
+        font-size: 3rem;
+        line-height: 1em;
+        margin: 0.25em 0;
+    }
+
+    .recent{
+        margin: 2em auto 3em auto;
+        font-size: 1.1rem;
+    }
+
+    .recent h1{
+        margin: 0.5em 0;
+        font-size: 2rem;
+    }
+
+    .about p{
+        line-height: 1.3em;
+        font-weight: 500;
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width:768px){
+    .intro{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 90%;
+        max-width: 1300px;
+        margin: 2em auto 3em auto;
+        gap: 1.5em;
+    }
+    #yo{
+        border-radius: 50%;
+        width:35%;
+        border: #202020 2px solid;
+    }
+    .main-section{
+        background-image: url("/img/main2.webp");
+        width: auto;
+        aspect-ratio: 16/9;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        background-size:cover;
+        color: aliceblue;
+        padding: 2em 1em;
+        text-align: start;
+        margin: 0 auto 1.5em;
+        line-height: 1.5rem;
+        font-size: 1.2rem;
+        text-shadow: black 1px 1px 2px;
+    }
+
+}
+
+@media (min-width:992px){
+    .main-section{
+        padding: 3em 2em;
+        margin: 0 auto 1.5em;
+        line-height: 1.5rem;
+        font-size: 1.5rem;
+    }
+    #recent{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 320px);
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .recent{
+        width: 90%;
+        margin: 0 auto 1em auto;
+        line-height: 1.5em;
+        font-size: 0.8rem;
+    }
+
+    .recent img{
+        max-height: 170px;
+    }
+    .about{
+        width: 90%;
+        max-width: 1300px;
+        margin: 2em auto 3em auto;
+    }
+
+    .intro{
+        margin: 2em auto 3em auto;
+        gap: 1.5em;
+    }
+    
+    .about h1{
+        font-size: 2rem;
+        font-weight:900;
+    }
+    
+    .about p{
+        line-height: 1.3em;
+        font-weight: 500;
+        font-size: 1.3rem;
+    }
+    
+    .divider{
+        text-align: center;
+    }
+    
+    #yo{
+        border-radius: 50%;
+        width:25%;
+        border: #202020 2px solid;
+    }
+    .recent{
+        font-size: 1rem;
+    }
+}
