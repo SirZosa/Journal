@@ -29,7 +29,7 @@ export const posts = [
         message:"This was my first responsive website I made watching a youtube tutorial that teached me the basics of HTML and CSS.",
         img:"img/responsive.webp",
         alt:"Responsive website image",
-        link:"https://order-onlinepls.netlify.app/"
+        link:"https://sirzosa-practice-website.netlify.app/"
     },
     {
         date:"APRIL 6, 2023",
@@ -38,5 +38,13 @@ export const posts = [
         img:"img/extension.webp",
         alt:"Web browser extension image",
         link:"https://github.com/SirZosa/Chrome-extension-practice"
+    },
+    {
+        date:"JUNE 1, 2023",
+        title:"Tindog",
+        message:"I have created an app like tinder but for dogs, it just let you do the basic stuff, just swipe like or nope, it uses classes and a constructor function to render the dogs in the app.",
+        img:"img/tindog.webp",
+        alt:"Tindog image",
+        link:"https://tindog-sosa.netlify.app/"
     }
 ]
