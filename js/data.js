@@ -1,5 +1,21 @@
 export const posts = [
     {
+        date:"JUNE 8, 2023",
+        title:"Color generator",
+        message:"This was my first project working with an API, sending color values to the API and receiving information from the API, it was a little tricky to access to that information but at the end I managed to get the app working",
+        img:"img/color.webp",
+        alt:"Color generator image",
+        link:"https://omars-color-generator.netlify.app/"
+    },
+    {
+        date:"JUNE 1, 2023",
+        title:"Tindog",
+        message:"I have created an app like tinder but for dogs, it just let you do the basic stuff, just swipe like or nope, it uses classes and a constructor function to render the dogs in the app.",
+        img:"img/tindog.webp",
+        alt:"Tindog image",
+        link:"https://tindog-sosa.netlify.app/"
+    },
+    {
         date:"May 9, 2023",
         title:"Champion's Site",
         message:"In this project I worked mostly with JavaScrip. It was a challenge since I was putting into practice the new things I was learning. But at the end I make it work as I intended.",
@@ -38,13 +54,5 @@ export const posts = [
         img:"img/extension.webp",
         alt:"Web browser extension image",
         link:"https://github.com/SirZosa/Chrome-extension-practice"
-    },
-    {
-        date:"JUNE 1, 2023",
-        title:"Tindog",
-        message:"I have created an app like tinder but for dogs, it just let you do the basic stuff, just swipe like or nope, it uses classes and a constructor function to render the dogs in the app.",
-        img:"img/tindog.webp",
-        alt:"Tindog image",
-        link:"https://tindog-sosa.netlify.app/"
     }
 ]
