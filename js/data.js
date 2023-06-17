@@ -1,5 +1,13 @@
 export const posts = [
     {
+        date:"JUNE 17, 2023",
+        title:"Movie Watchlist",
+        message:"My second project working with an API, this time I needed to send to the API the search of a movie and the API sent me information of 10 movies that matched the search. First I tried working with the localStore of the device and worked, but for a reason when uploaded to the internet it doesn't work, so I needed to find another way of making it work. That's when I learned about the in-built database in the brower indexedDB.",
+        img:"img/watchlist.webp",
+        alt:"Movie Watchlist image",
+        link:"https://omars-watchlist.netlify.app/"
+    },
+    {
         date:"JUNE 8, 2023",
         title:"Color generator",
         message:"This was my first project working with an API, sending color values to the API and receiving information from the API, it was a little tricky to access to that information but at the end I managed to get the app working",
