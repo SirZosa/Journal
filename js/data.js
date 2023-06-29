@@ -1,5 +1,13 @@
 export const posts = [
     {
+        date:"JUNE 28, 2023",
+        title:"First react app",
+        message:"My first page made with React! At the beggining it was confusion how to setup all the stuff tu begin with but at the end is almost the same thing as vanilla js at the moment. I made a static webpage about me and my contact information.",
+        img:"img/react.webp",
+        alt:"First react app image",
+        link:"https://omars-first-react-app.netlify.app/"
+    },
+    {
         date:"JUNE 17, 2023",
         title:"Movie Watchlist",
         message:"My second project working with an API, this time I needed to send to the API the search of a movie and the API sent me information of 10 movies that matched the search. First I tried working with the localStore of the device and worked, but for a reason when uploaded to the internet it doesn't work, so I needed to find another way of making it work. That's when I learned about the in-built database in the brower indexedDB.",
