@@ -1,5 +1,13 @@
 export const posts = [
     {
+        date:"JULY 18, 2023",
+        title:"Quizzical",
+        message:"A trivia web site built in next.js, a react framework. The web site basically uses an api that return 5 questions and the page let the user to interact with those questions trying to select the rigth answer.",
+        img:"img/quizzical.webp",
+        alt:"quizzical app image",
+        link:"https://omars-quizzical-site.netlify.app/"
+    },
+    {
         date:"JUNE 28, 2023",
         title:"First react app",
         message:"My first page made with React! At the beggining it was confusion how to setup all the stuff tu begin with but at the end is almost the same thing as vanilla js at the moment. I made a static webpage about me and my contact information.",
