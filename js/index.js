@@ -12,6 +12,10 @@ function renderPosts(){
         <p>${comment.date}</p>
         <h1>${comment.title}</h1>
         <p>${comment.message}</p>
+        <div class="links">
+            <a class="liveLink" href="${comment.link}" target="_blank">LIVE LINK</a>
+            <a class="codeLink" href="${comment.codeLink}" target="_blank">CODE LINK</a>
+        </div>
     </section>
         `
     }
