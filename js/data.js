@@ -77,7 +77,7 @@ export const posts = [
         message:"I wanted to practice what I've learned about HTML and CSS, so the topic of the site I wanted to create is my piano. In this site I show all the songs I've learned to play on the piano.",
         img:"img/piano.webp",
         alt:"My piano's Site image",
-        link:"https://omars-site.netlify.app/",
+        link:"https://omars-piano.netlify.app",
         codeLink:"https://github.com/SirZosa/pianosite"
     },
     {
