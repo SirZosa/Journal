@@ -1,5 +1,14 @@
 export const posts = [
     {
+        date:"SEPTEMBER 12, 2023",
+        title:"Small library",
+        message:"I learned about compound components and it's benefits, especially in React to avoid 'prop drilling', so i decided to create a small library.",
+        img:"img/library.webp",
+        alt:"library image",
+        link:"https://omars-small-library.netlify.app/",
+        codeLink:"https://github.com/SirZosa/small-library"
+    },
+    {
         date:"AUGUST 18, 2023",
         title:"VanLife",
         message:"A single page React/Vite app that simulates a rental website, where the user can filter between the opcions the store offer. The website was built in Vite using React router 6.",
