@@ -1,5 +1,14 @@
 export const posts = [
     {
+        date:"NOVEMBER 1, 2023",
+        title:"Tic Tac Toe",
+        message:"Practicing my coding skills by building a tic tac toe game.",
+        img:"img/tictactoe.webp",
+        alt:"library image",
+        link:"https://omars-tic-tac-toe.netlify.app/",
+        codeLink:"https://github.com/SirZosa/tictactoe"
+    },
+    {
         date:"SEPTEMBER 12, 2023",
         title:"Small library",
         message:"I learned about compound components and it's benefits, especially in React to avoid 'prop drilling', so i decided to create a small library.",
@@ -77,7 +86,7 @@ export const posts = [
         message:"I wanted to practice what I've learned about HTML and CSS, so the topic of the site I wanted to create is my piano. In this site I show all the songs I've learned to play on the piano.",
         img:"img/piano.webp",
         alt:"My piano's Site image",
-        link:"https://omars-piano.netlify.app",
+        link:"https://omars-site.netlify.app/",
         codeLink:"https://github.com/SirZosa/pianosite"
     },
     {
