@@ -1,10 +1,28 @@
 export const posts = [
     {
+        date:"MARCH 21, 2024",
+        title:"E-commerce",
+        message:"A simple Ecommerce website built using react router (SPA)",
+        img:"img/omars-ecommerce.webp",
+        alt:"ecommerce image",
+        link:"https://omars-ecommerce.netlify.app/",
+        codeLink:"https://github.com/SirZosa/E-commerce"
+    },
+    {
+        date:"JANUARY 11, 2024",
+        title:"Tensies",
+        message:"Practicing my coding skills by building a tensies game.",
+        img:"img/tensies.webp",
+        alt:"tensies image",
+        link:"https://omars-tensies-game.netlify.app/",
+        codeLink:"https://github.com/SirZosa/tensies"
+    },
+    {
         date:"NOVEMBER 1, 2023",
         title:"Tic Tac Toe",
         message:"Practicing my coding skills by building a tic tac toe game.",
         img:"img/tictactoe.webp",
-        alt:"library image",
+        alt:"Tic tac toe image",
         link:"https://omars-tic-tac-toe.netlify.app/",
         codeLink:"https://github.com/SirZosa/tictactoe"
     },
@@ -86,7 +104,7 @@ export const posts = [
         message:"I wanted to practice what I've learned about HTML and CSS, so the topic of the site I wanted to create is my piano. In this site I show all the songs I've learned to play on the piano.",
         img:"img/piano.webp",
         alt:"My piano's Site image",
-        link:"https://omars-piano.netlify.app/",
+        link:"https://omars-site.netlify.app/",
         codeLink:"https://github.com/SirZosa/pianosite"
     },
     {
