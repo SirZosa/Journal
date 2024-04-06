@@ -1,5 +1,14 @@
 export const posts = [
     {
+        date:"APRIL 6, 2024",
+        title:"Quizical V2",
+        message:"My first app using typescript! A redesign of my app quizzical.",
+        img:"img/quizicalV2.webp",
+        alt:"Quizicalv2 image",
+        link:"https://omars-quizicalv2.netlify.app/",
+        codeLink:"https://github.com/SirZosa/quizicalV2"
+    },
+    {
         date:"MARCH 21, 2024",
         title:"E-commerce",
         message:"A simple Ecommerce website built using react router (SPA)",
