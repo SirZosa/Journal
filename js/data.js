@@ -1,5 +1,14 @@
 export const posts = [
     {
+        date:"JUNE 6, 2024",
+        title:"E-commerce v2!",
+        message:"Upgraded my E-commerce website to allow users create profiles using mySQL for the database and Node JS for the API.",
+        img:"img/omars-ecommerce.webp",
+        alt:"Ecommerce image",
+        link:"https://omars-commerce.netlify.app/",
+        codeLink:"https://github.com/SirZosa/EcommerceAPI"
+    },
+    {
         date:"APRIL 6, 2024",
         title:"Quizical V2",
         message:"My first app using typescript! A redesign of my app quizzical.",
