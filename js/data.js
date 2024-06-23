@@ -1,5 +1,14 @@
 export const posts = [
     {
+        date:"JUNE 22, 2024",
+        title:"Vet Landing Page",
+        message:"A simple landing page for a veterinary",
+        img:"img/vet.webp",
+        alt:"Vet image",
+        link:"https://omars-vet.netlify.app/",
+        codeLink:"https://github.com/SirZosa/vet"
+    },
+    {
         date:"JUNE 6, 2024",
         title:"E-commerce v2!",
         message:"Upgraded my E-commerce website to allow users create profiles using mySQL for the database and Node JS for the API.",
