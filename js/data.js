@@ -1,5 +1,14 @@
 export const posts = [
     {
+        date:"SEP 18, 2024",
+        title:"Cool typing game",
+        message:"A game to test your typing speed!",
+        img:"img/typegame.webp",
+        alt:"game image",
+        link:"https://omars-typing-game.netlify.app/",
+        codeLink:"https://github.com/SirZosa/TypeGame"
+    },
+    {
         date:"JUNE 22, 2024",
         title:"Vet Landing Page",
         message:"A simple landing page for a veterinary",
