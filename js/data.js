@@ -1,5 +1,14 @@
 export const posts = [
     {
+        date:"SEP 30, 2024",
+        title:"Restaurant",
+        message:"A responsive single page application",
+        img:"img/restaurant.webp",
+        alt:"game image",
+        link:"https://omars-restaurant.netlify.app/",
+        codeLink:"https://github.com/SirZosa/restaurant"
+    },
+    {
         date:"SEP 18, 2024",
         title:"Cool typing game",
         message:"A game to test your typing speed!",
